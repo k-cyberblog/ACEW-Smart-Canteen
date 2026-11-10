@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu - ACEW Smart Canteen</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1> Our Delicious Menu</h1>
+
+    <div id="food-list">
+         <p>Loading food items...</p>
+    </div>
+
+    <h2>Cart</h2>
+    <div id="cart"></div>
+    <h3 id="total">Total: ₹0</h3>
+
+    <button id="place-order-btn" onclick="placeOrder()">
+        Place Order
+    </button>
+
+    <p id="order-message"></p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
