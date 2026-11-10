@@ -36,7 +36,10 @@ ACEW Smart Canteen/
 │   ├── script.js
 │   └── cscript.js
 ├── database/
-│   └── schema.sql
+│   └── users.sql
+│   └── orders.sql
+│   └── food_items.sql
+│   └── order_items.sql
 └── README.md
 ```
 
